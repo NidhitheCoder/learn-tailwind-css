@@ -1,0 +1,23 @@
+{
+  "name": "learn-tailwind-css",
+  "version": "1.0.0",
+  "description": "## What is taiwind CSS ? - CSS framework made up of utility classes. - Much lower-level than bootstrap, Materialize etc.. - In tailwind css there is no pre-builded components there are some classes for achieving some special styles. - It provides more flexibility.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwind build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NidhitheCoder/learn-tailwind-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NidhitheCoder/learn-tailwind-css/issues"
+  },
+  "homepage": "https://github.com/NidhitheCoder/learn-tailwind-css#readme",
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
