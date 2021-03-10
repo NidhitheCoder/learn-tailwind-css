@@ -45,10 +45,16 @@
 
 - Then run 'npm run build' command in terminal.
 
-- if you get an error like ' TypeError :Object.entries(...).flatMap is not a function'
+- If you get an error like ' TypeError :Object.entries(...).flatMap is not a function'
   then one of the main reason of this error caused is old node version.
   to install latest verison of node run 'nvm install node'.
 
 ## How tailwind works?
 
 - style.css(source file) => Tailwind => styles.css => index.html
+
+## How to create tailwind config file.
+- npx tailwindcss init --full
+- --full flag for get all the default values that tailwind uses.
+- Build to apply new changes in tailwind.config => inside package.json => scripts => build command (In this project - 'npm run build-css')
+- Run the command in the project folder terminal.
