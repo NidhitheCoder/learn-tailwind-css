@@ -22,9 +22,12 @@
 - Open to the folder and terminal
 - Run 'npm init -y'
 - Run 'npm install tailwindcss' if you need autoprefixer then use the command 'npm install tailwind autoprefixer'.
-- RUn 'npm install postcss-cli'
+- Run 'npm install postcss-cli'
 - For create cofiguration files run the command 'npx tailwindcss init -p'
   - This also create the postcss config file along with tailwind.configjs.
+  - 
+### Way to use
+
 - Create folders named 'src and public'
 - In public folder create files named 'index.html and styles.css'
 - In src folder create file named 'styles.css'
@@ -37,8 +40,13 @@
 
   ```
 
-- Change script object with
+- Change package.json's script object with
 
+  For first method 
+  ```
+  "build-css": "tailwind build src/styles.css -o public/styles.css"
+  ```
+  For second method
   ```
   "build":'postcss .src/styles.css -o ./public/styles.css'
   ```
@@ -63,3 +71,8 @@
 - Go to https://heroicons.com/
 - Select icon and copy svg
 - Paste into the code and  add style to svg tag
+
+
+Referance :- https://www.youtube.com/watch?v=bxmDnn7lrnk&list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw
+
+A big thanks to  The Net Ninja 🙌 - https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg
