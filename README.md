@@ -58,3 +58,8 @@
 - --full flag for get all the default values that tailwind uses.
 - Build to apply new changes in tailwind.config => inside package.json => scripts => build command (In this project - 'npm run build-css')
 - Run the command in the project folder terminal.
+
+# How to use Icons in TailwindCSS ?
+- Go to https://heroicons.com/
+- Select icon and copy svg
+- Paste into the code and  add style to svg class
