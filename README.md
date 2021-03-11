@@ -62,4 +62,4 @@
 # How to use Icons in TailwindCSS ?
 - Go to https://heroicons.com/
 - Select icon and copy svg
-- Paste into the code and  add style to svg class
+- Paste into the code and  add style to svg tag
